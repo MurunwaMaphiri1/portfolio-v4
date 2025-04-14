@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { HTML5, CSS3, NodeJs, JavaScript, TypeScript, Azure, NPM, Git, GitHubLight, CSharp, MongoDB, PostgreSQL, Postman, ExpressJsLight, VisualStudioCode, React } from 'developer-icons';
 
 export default function HomePage() {
 
@@ -214,18 +213,58 @@ export default function HomePage() {
             The stuff I've cooked up
           </p>
         </div>
-        <div className='project-section'>
+        {/* <div className='project-section'>
           <div className='project-container'>
             <div className='image-container'>
               <img
-              src='#'
+                src='./images/YumeAnime.png'
+                alt='Anime Suta Preview'
               />
             </div>
-            <div className='project-name'>
-
+            <div className='project-details'>
+              <div className='project-name'>
+                <h5>YumeAnime</h5>
+              </div>
+              <div className='description'>
+                <p>
+                Integrated the Jikan API to display seasonal, upcoming and top anime.
+                </p>
+              </div>
+              <div className='tech-stack'>
+                <span className='tech-tag'>ReactJS</span>
+                <span className='tech-tag'>JavaScript</span>
+              </div>
+              <div className='project-link'>
+                <button className='link-button'>🌐 Website</button>
+              </div>
             </div>
           </div>
-        </div>
+          <div className='project-container'>
+            <div className='image-container'>
+              <img
+                src='./images/YumeAnime.png'
+                alt='Anime Suta Preview'
+              />
+            </div>
+            <div className='project-details'>
+              <div className='project-name'>
+                <h5>YumeAnime</h5>
+              </div>
+              <div className='description'>
+                <p>
+                Integrated the Jikan API to display seasonal, upcoming and top anime.
+                </p>
+              </div>
+              <div className='tech-stack'>
+                <span className='tech-tag'>ReactJS</span>
+                <span className='tech-tag'>JavaScript</span>
+              </div>
+              <div className='project-link'>
+                <button className='link-button'>🌐 Website</button>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
     </>
   )

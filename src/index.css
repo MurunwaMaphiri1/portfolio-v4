@@ -77,7 +77,7 @@ body {
 
 .skills-slider {
   overflow: hidden;
-  padding: 30px 0 0 0;
+  padding: 30px 0 30px 0;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -90,7 +90,7 @@ body {
 .skills-slide {
   display: flex;
   flex-direction: row;
-  animation: 45s slide infinite linear;
+  animation: 25s slide infinite linear;
   gap: 60px;
 }
 
@@ -99,6 +99,90 @@ body {
   align-items: center; 
   gap: 8px; 
 }
+
+/* .project-section {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 1px #333 solid;
+  border-radius: 10px;
+  width: 350px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 17px;
+}
+
+.project-name h5 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.description p {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.4;
+  color: #d1d1d1;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-tag {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.project-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link-button {
+  background-color: #444;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.link-button:hover {
+  background-color: #555;
+} */
 
 @keyframes slide {
   from {
