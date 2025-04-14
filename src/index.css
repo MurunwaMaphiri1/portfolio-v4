@@ -76,12 +76,21 @@ body {
 }
 
 .skills-slider {
-  margin-top: 15px;
+  overflow: hidden;
+  padding: 30px 0 0 0;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.skills-slider:hover .skills-slide {
+  animation-play-state: paused;
 }
 
 .skills-slide {
   display: flex;
   flex-direction: row;
+  animation: 45s slide infinite linear;
   gap: 60px;
 }
 
@@ -89,4 +98,14 @@ body {
   display: flex;
   align-items: center; 
   gap: 8px; 
+}
+
+@keyframes slide {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
 }
