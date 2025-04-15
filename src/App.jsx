@@ -2,7 +2,7 @@ import './index.css';
 import HomePage from './pages/homepage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Resume from './pages/resume';
+import ReadList from './pages/readlist';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<HomePage/>}/>
-          <Route path='/resume/' element={<Resume/>}/>
+          <Route path='/books' element={<ReadList/>}/>
         </Routes>
       </Router>
     </>

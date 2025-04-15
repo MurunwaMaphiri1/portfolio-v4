@@ -237,6 +237,31 @@ body {
   background-color: #555;
 } */
 
+.books-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.title a {
+  text-decoration: none;
+  color: white;
+  max-width: 10px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date p {
+  color: #9b9b9b;
+}
+
 @keyframes slide {
   0% {
       transform: translateX(0);
