@@ -234,9 +234,6 @@ export default function HomePage() {
                 <span className='tech-tag'>ReactJS</span>
                 <span className='tech-tag'>JavaScript</span>
               </div>
-              <div className='project-link'>
-                <button className='link-button'>🌐 Website</button>
-              </div>
             </div>
           </div>
           <div className='project-container'>
@@ -258,9 +255,6 @@ export default function HomePage() {
               <div className='tech-stack'>
                 <span className='tech-tag'>ReactJS</span>
                 <span className='tech-tag'>JavaScript</span>
-              </div>
-              <div className='project-link'>
-                <button className='link-button'>🌐 Website</button>
               </div>
             </div>
           </div>
