@@ -246,16 +246,27 @@ body {
 .book-container {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  max-width: 70%; /* Control how much space the title takes */
+  overflow: hidden; /* Hide overflow */
 }
 
 .title a {
   text-decoration: none;
   color: white;
-  max-width: 10px;
-  flex-wrap: nowrap;
+  white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden;
   text-overflow: ellipsis;
+  display: inline-block; /* Better for text truncation */
+  width: 100%; /* Take full width of parent */
+}
+
+.date {
+  white-space: nowrap;
 }
 
 .date p {
