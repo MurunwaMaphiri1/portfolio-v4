@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="container">
         <div className="details-container">
           <img
-            src="./images/Luffy.jpg"
+            src="./images/L (2).jpg"
             alt="Profile"
           />
           <div className="name-container">

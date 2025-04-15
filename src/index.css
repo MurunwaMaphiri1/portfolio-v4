@@ -17,6 +17,52 @@ body {
   font-family: "Roboto Condensed";
 }
 
+.nav-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* From Uiverse.io by faxriddin20 */ 
+.button-container {
+  display: flex;
+  background-color: black;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 2px solid rgb(26, 25, 25);
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -53,7 +99,7 @@ body {
 }
 
 .about-me-container p {
-  color: #878686;
+  color: #9b9b9b;
 }
 
 .links-container {
@@ -90,14 +136,16 @@ body {
 .skills-slide {
   display: flex;
   flex-direction: row;
-  animation: 25s slide infinite linear;
+  animation: slide 25s infinite linear;
   gap: 60px;
+  width: max-content;
 }
 
 .skill {
   display: flex;
   align-items: center; 
   gap: 8px; 
+  flex-shrink: 0;
 }
 
 /* .project-section {
@@ -185,11 +233,22 @@ body {
 } */
 
 @keyframes slide {
-  from {
+  0% {
       transform: translateX(0);
   }
 
-  to {
+  100% {
       transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .nav-container {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
   }
 }
