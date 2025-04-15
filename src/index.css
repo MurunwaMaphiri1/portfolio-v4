@@ -72,6 +72,7 @@ body {
 
 .details-container {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 50px;
 }
@@ -92,6 +93,9 @@ body {
 
 .about-me-container {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .about-me-container h3 {
@@ -106,6 +110,7 @@ body {
   display: flex;
   gap: 15px;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .links-container a {
