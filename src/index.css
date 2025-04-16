@@ -69,6 +69,7 @@ body {
   width: 900px;
   letter-spacing: 1px;
   margin-bottom: 20px;
+  min-height: 100vh;
 }
 
 .details-container {
@@ -156,15 +157,18 @@ body {
   flex-shrink: 0;
 }
 
-/* .project-section {
+.project-section {
   margin-top: 20px;
   display: grid;
+  justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
+  /* background-color: rgb(16, 16, 16); */
   background-color: black;
   border: 1px #333 solid;
   border-radius: 10px;
@@ -178,11 +182,13 @@ body {
   justify-content: center;
   margin-bottom: 15px;
   width: 100%;
+  /* padding: 3px; */
 }
 
 .image-container img {
   object-fit: cover;
   width: 100%;
+  border-radius: 10px;
 }
 
 .project-details {
@@ -192,14 +198,25 @@ body {
   padding: 17px;
 }
 
+.project-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+}
+
 .project-name h5 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0;
   font-weight: 600;
 }
 
 .description p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 0;
   line-height: 1.4;
   color: #d1d1d1;
@@ -214,9 +231,9 @@ body {
 .tech-tag {
   background-color: white;
   color: black;
-  padding: 5px 10px;
+  padding: 3px 5px;
   border-radius: 12px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
 }
 
@@ -238,7 +255,7 @@ body {
 
 .link-button:hover {
   background-color: #555;
-} */
+}
 
 .books-container {
   margin-top: 20px;
@@ -276,12 +293,14 @@ body {
   color: #9b9b9b;
 }
 
-footer {
-  position: fixed;
+
+.bottom-container {
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 900px;
   padding: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .copyright {
@@ -314,6 +333,12 @@ footer {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .bottom-container {
+    width: 100%;
   }
 }

@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div className="container">
+                <div className="bottom-container">
                     <hr></hr>
                     <div className="footer-container">
                         <div className="links-container">
