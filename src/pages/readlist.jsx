@@ -8,7 +8,7 @@ export default function ReadList() {
             <div className="container">
                 <div className="about-me-container">
                     <h3>
-                        Reading list
+                        $ less reading-list.txt
                     </h3>
                     <p>
                         books and blogs i've read
