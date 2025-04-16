@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import ReadList from './pages/readlist';
 import Blog from './pages/blog';
+import Footer from './components/footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/books' element={<ReadList/>}/>
           <Route path='/blogs' element={<Blog/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </>
   )

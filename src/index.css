@@ -68,6 +68,7 @@ body {
   margin-right: auto;
   width: 900px;
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 .details-container {
@@ -106,17 +107,19 @@ body {
   color: #9b9b9b;
 }
 
-.links-container {
+ .links-container {
   display: flex;
   gap: 15px;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 12px;
+  justify-content: center;
 }
 
 .links-container a {
   color: white;
   text-decoration: none;
-}
+} 
 
 .skills-container {
   margin-top: 30px;
@@ -251,18 +254,18 @@ body {
 }
 
 .title {
-  max-width: 70%; /* Control how much space the title takes */
-  overflow: hidden; /* Hide overflow */
+  max-width: 70%; 
+  overflow: hidden; 
 }
 
 .title a {
   text-decoration: none;
   color: white;
-  white-space: nowrap; /* Prevent text from wrapping */
+  white-space: nowrap; 
   overflow: hidden;
   text-overflow: ellipsis;
-  display: inline-block; /* Better for text truncation */
-  width: 100%; /* Take full width of parent */
+  display: inline-block; 
+  width: 100%; 
 }
 
 .date {
@@ -271,6 +274,20 @@ body {
 
 .date p {
   color: #9b9b9b;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 @keyframes slide {
