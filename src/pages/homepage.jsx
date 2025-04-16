@@ -265,7 +265,7 @@ export default function HomePage() {
               </div>
               <div className='description'>
                 <p>
-                Integrated the Jikan API to display seasonal, upcoming and top anime.
+                This project is an API for an e-commerce platform that allows users to sign up, log in, add products to a shopping cart, remove products, view and search for products, and checkout with a payment gateway. The backend includes JWT authentication for secure user interaction and integrates with Stripe for handling payments.
                 </p>
               </div>
               <div className='tech-stack'>
@@ -273,7 +273,6 @@ export default function HomePage() {
                 <span className='tech-tag'>JavaScript</span>
                 <span className='tech-tag'>MongoDB</span>
                 <span className='tech-tag'>NodeJS</span>
-                <span className='tech-tag'>ExpressJS</span>
               </div>
             </div>
           </div>
