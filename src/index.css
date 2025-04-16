@@ -162,7 +162,8 @@ body {
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
-  padding: 30px;
+  /* padding: 30px; */
+  gap: 20px;
 }
 
 .project-container {
@@ -172,7 +173,7 @@ body {
   background-color: black;
   border: 1px #333 solid;
   border-radius: 10px;
-  width: 350px;
+  width: 440px;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -207,6 +208,7 @@ body {
 .project-links {
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
 .project-name h5 {
@@ -336,6 +338,11 @@ body {
     justify-content: center;
     width: 100%;
     gap: 20px;
+    padding: 7px;
+  }
+
+  .project-container {
+    width: 100%;
   }
 
   .bottom-container {

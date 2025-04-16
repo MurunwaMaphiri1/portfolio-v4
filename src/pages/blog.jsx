@@ -11,7 +11,7 @@ export default function Blog() {
                         $ cat blog-posts.md
                     </h3>
                     <p>
-                        compilation of my thoughts and experiences
+                        my thoughts and opinions
                     </p>
                 </div>
             </div>
